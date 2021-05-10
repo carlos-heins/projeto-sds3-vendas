@@ -22,7 +22,6 @@ public class SellerService {
     @Autowired
     private SellerRepository repository;
 
-    // Rever trexo de aula.
     public List<SellerDTO> findAll() {
         List<Seller> result = repository.findAll();
 
